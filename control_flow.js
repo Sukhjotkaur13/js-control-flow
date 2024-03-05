@@ -37,3 +37,28 @@ function checkDay(day)
 checkDay(2);
 checkDay(0);
 checkDay(7);
+
+document.write('<h4>Write a js program that take three numbers as input and return the largest one. </h4>');
+
+function checkGreater(a,b,c)
+{
+    if(a>b){
+        if(a>c)
+        {
+            document.write('Greater is:'+a +'<br>');
+        }
+        else {
+            document.write('Greater is:'+c +'<br>');
+        }
+    }
+    else{
+        if(b>c)
+        {
+            document.write('Greater is:'+b +'<br>');
+        }
+        else {
+            document.write('Greater is:'+c +'<br>');
+        }
+    }
+}
+checkGreater(5,3,2);
