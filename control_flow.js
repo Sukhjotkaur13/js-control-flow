@@ -17,3 +17,23 @@ function checkNumber(n)
 checkNumber(5);
 checkNumber(-5);
 checkNumber(0);
+
+document.write('<h4> Write a js program that takes a day of the week as input using num,ber 1 to 7 where 1 represents Monday and 7 represents snday and prints whether it is a weekday or weekend </h4>');
+
+function checkDay(day)
+{
+    if(day >=1 && day<=5)
+    {
+        document.write(' This a WeekDay <br>');
+    }
+    else if(day>=6 && day<=7)
+    {
+        document.write('This is WeekEnd <br>');
+    }
+    else{
+        document.write('This is Invalid day <br>');
+    }
+}
+checkDay(2);
+checkDay(0);
+checkDay(7);
